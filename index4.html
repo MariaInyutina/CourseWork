@@ -1,0 +1,314 @@
+﻿<!-- Страница Прогулки по лесу -->
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Подключение файлов CSS со стилями -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+    <!-- Название страниц, которые высвечиваются во вкладках, прописываются тут -->
+  <title>О нас</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <style>
+    @charset "utf-8";
+
+    .our-list {
+      display: flex;
+      display: -webkit-flex;
+      flex-wrap: wrap;
+      -webkit-flex-wrap: wrap;
+      margin: 0 -15px 50px -15px;
+    }
+
+    /* CSS Document */
+
+    #horses .our-list .c2.fshow {
+      display: block;
+    }
+
+    .our-list .c2 {
+      flex: 0 0 25%;
+      -webkit-flex: 0 0 25%;
+      padding: 0 15px;
+      margin-bottom: 40px;
+    }
+
+    .our-list .box .img {
+      height: 250px;
+      background-size: contain !important;
+      margin-bottom: 15px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .our-list .box .ttl {
+      font-size: 21px;
+      font-family: 'MuseoSansCyrl-900';
+      color: #353f44;
+      font-weight: 900;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+
+<body id="body">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+  <div class="container-fluid" style="background-image:url(temp/fon.jpg); height:435px">
+    <div class="container-fluid">
+      <div class="logo" style="float:left"><img src="temp/logo.png" width="300" height="345"></div>
+      <div class="container text-center" style="">
+        <p style="color:#600; padding-top:100px; font-family:Tahoma, Geneva, sans-serif; font-size: 40px">Уроки верховой
+          езды в Москве<br>
+          с сильными тренерами</p>
+
+        <div><a type="button" href="Form.html" target="_blank" class="btn btn-primary" style="background-color:#8c2900; color:#ffdc96; width: 200px; bs-btn-color: #ffdc96;
+    --bs-btn-bg: #8c2900;
+    --bs-btn-border-color: #8c2900;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8c2900;
+    --bs-btn-disabled-border-color: #8c2900;">Пройти опрос</button>
+          <a type="button" href="Form.html" target="_blank" class="btn btn-primary" style="background-color:#8c2900; color:#ffdc96; width: 200px; bs-btn-color: #ffdc96;
+    --bs-btn-bg: #8c2900;
+    --bs-btn-border-color: #8c2900;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #8c2900;
+    --bs-btn-disabled-border-color: #8c2900;">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Главное меню -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index4.html#ourHorses">Наши лошади</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://stroy-podskazka.ru/loshadi/vse/" target="_blank">Все о лошадях</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index3.html">Прогулки по лесу</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index4.html" style="border:1px #fff solid;">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index5.html">Прайс-лист</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index6.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Блоки списков и текста -->
+  <main class="container">
+    <h2 align="center" style="color:#3f0000">&nbsp;</h2>
+    <h2 align="center" style="color:#3f0000">О нас</strong></h2>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col" style="background-color:#5c2216; height: 150px">
+          <p style="color:#FFF; font-weight:700; font-size:18px; padding-top: 20px">Запись на занятия
+          <p style="color:#FFF">оставте заявку и мы перезвоним вам в удобное для вас время</p>
+        </div>
+        <div class="col" style="background-color:#f47231; height: 150px">
+          <p style="color:#FFF; font-weight:700; font-size:18px; padding-top: 20px">Адрес конюшни
+          <p style="color:#FFF">
+            Новоясеневский пр-т, 42а<br>
+            +7(499) 686-08-32<br>
+            info@kskprovans.ru
+          </p>
+        </div>
+        <div class="col" style="background-color:#8a1700; height: 150px">
+          <p style="color:#FFF; font-weight:700; font-size:18px; padding-top: 20px">Время работы конюшни
+          <p style="color:#FFF">Работаем с 8:00 до 23:00</p>
+        </div>
+      </div>
+    </div>
+    <h3 style="color:#3f0000; font-weight:700; font-size:18px; padding-top: 20px"> Наши преимущества</h3>
+    <ol>
+      <li>5 минут от метро
+        Находимся в пешей
+        доступности от м. Новоясеневская </li>
+      <li>Опытные тренеры
+        Более 25 тренеров: мастера спорта, КМС и профессионалы пони-школы </li>
+      <li> Более 50 голов
+        Среди них победители соревнований и
+        добродушные любимцы детей </li>
+      <li>Занятия в любую погоду
+        2 открытых плаца, бочка, 2 крытых манежа,
+        в том числе размером 20х60 метров </li>
+    </ol>
+    </p>
+
+
+    <h2 align="center" style="color:#3f0000">&nbsp;</h2>
+    <!-- Начало перечисления лошадей -->
+    <h2 align="center" style="color:#3f0000" id="ourHorses">Наши лошади</h2>
+
+    <div class="our-list">
+
+      <div class="c2 fshow">
+        <div class="box">
+          <div class="img"><a href="src/ametist_b.jpg" target="_blank"><img src="src/ametist.jpg" alt=""></a></div>
+          <div class="ttl">Аметист</div>
+          <p>
+            Мерин<br>
+            <i>Порода:</i> Полукровная<br>
+            <i>Масть:</i> Гнедая<br>
+            <i>Занятия:</i> Школа верховой езды, Прогулки
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2 fshow">
+        <div class="box">
+          <div class="img"><a href="src/arabika_b.jpg" target="_blank"><img src="src/arabika.jpg" alt=""></a></div>
+          <div class="ttl">Арабика <span class="pro">PRO</span></div>
+          <p>
+            Кобыла<br>
+            <i>Порода:</i> Полукровная<br>
+            <i>Масть:</i> Рыжая<br>
+            <i>Занятия:</i> Специализация PRO, Специализация Выездка
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2 fshow">
+        <div class="box">
+          <div class="img"><a href="src/baykal_b.jpg" target="_blank"><img src="src/baykal.jpg" alt=""></a></div>
+          <div class="ttl">Байкал</div>
+          <p>
+            Мерин<br>
+            <i>Порода:</i> Полукровная<br>
+
+            <i>Масть:</i> Темно-гнедая<br>
+            <i>Занятия:</i> Школа Верховой Езды, Прогулки
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2 fshow">
+        <div class="box">
+          <div class="img"><a href="src/bulat_new_b.jpg" target="_blank"><img src="src/bulat_new.jpg" alt=""></a></div>
+          <div class="ttl">Булат</div>
+          <p>
+            Мерин <br>
+            <i>Порода:</i> Вятская<br>
+            <i>Масть:</i> Мышастая<br>
+            <i>Занятия:</i> Школа Верховой Езды, Специализация Конкур
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2">
+        <div class="box">
+          <div class="img"><a href="src/buzefal_b.jpg" target="_blank"><img src="src/buzefal.jpg" alt=""></a></div>
+          <div class="ttl">Буцефал</div>
+          <p>
+            Жеребец<br>
+            <i>Порода:</i> Полукровная<br>
+
+            <i>Масть:</i> Гнедая<br>
+            <i>Занятия:</i> Школа верховой езды, Прогулки
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2">
+        <div class="box">
+          <div class="img"><a href="src/valensiya_b.jpg" target="_blank"><img src="src/valensiya.jpg" alt=""></a></div>
+          <div class="ttl">Валенсия</div>
+          <p>
+            Кобыла, <br>
+            <i>Порода:</i> Ганноверская<br>
+
+            <i>Масть:</i> Гнедая<br>
+            <i>Занятия:</i> Школа Верховой Езды, Специализация Выездка
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2">
+        <div class="box">
+          <div class="img"><a href="src/vezunya_new_b.jpg" target="_blank"><img src="src/vezunya_new.jpg" alt=""></a>
+          </div>
+          <div class="ttl">Везунья</div>
+          <p>
+            Кобыла, <br>
+            <i>Порода:</i> Тракено-латвийская<br>
+
+            <i>Масть:</i> Вороная<br>
+            <i>Занятия:</i> Аренда, Специализация Выездка, Специализация Конкур
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+
+      <div class="c2">
+        <div class="box">
+          <div class="img"><a href="src/versal_b.jpg" target="_blank"><img src="src/versal.jpg" alt=""></a></div>
+          <div class="ttl">Версаль</div>
+          <p>
+            Мерин<br>
+            <i>Порода:</i> Полукровная<br>
+
+            <i>Масть:</i> Темно-гнедая<br>
+            <i>Занятия:</i> Школа Верховой Езды, Специализация Выездка
+          </p>
+          <a class="cart-content__btn" target="_blank" href="Form1.html">Оставить отзыв</a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- Текст в самом низу страницы посередине -->
+    <p align="justify" style="text-align: center;">© Ветерок. Школа верховой езды</p>
+  </main>
+
+  <script src="js/jquery.maskedinput.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/mail.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
